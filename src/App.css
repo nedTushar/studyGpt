@@ -1,0 +1,83 @@
+body {
+  background-color: rgb(60, 63, 66);
+  color: white;
+  font-size: large;
+}
+
+code {
+  font-family: "Tilt Neon", cursive;
+}
+
+.App {
+  text-align: center;
+}
+
+.navbar {
+  font-size: small;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+.container-fluid {
+  background-color: rgb(0, 255, 170);
+}
+
+.heading {
+  font-family: "Tilt Neon", cursive;
+  font-size: small;
+  display: flex;
+  justify-content: center;
+  padding-left: 2em;
+  color: aqua;
+  border-width: 10px;
+  border-color: black;
+}
+
+.input {
+  font-family: "Tilt Neon", cursive;
+  font-size: large;
+  border-width: 1px;
+  width: 600px;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  padding-left: 10px;
+}
+
+.studyGpt {
+  display: flex;
+  justify-content: left;
+  font-size: 15px;
+  padding-top: 1em;
+}
+
+.submit-button {
+  border-width: 1px;
+  background-color: skyblue;
+  color: black;
+  font-size: small;
+  height: 45px;
+  width: 100px;
+  border-radius: 10px;
+}
+.submit-button:hover {
+  background-color: white;
+  opacity: 0.8;
+}
+.submit-button:active {
+  background-color: skyblue;
+  color: white;
+}
+
+.container {
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.input-submit {
+  display: flex;
+  justify-content: center;
+}
