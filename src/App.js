@@ -8,7 +8,7 @@ const App = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:3001", {
+      const response = await fetch("http://localhost:10000", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -23,7 +23,7 @@ const App = () => {
         setResponse(data.message);
 
         // Store the question and response in the database
-        await fetch("http://localhost:3001/store", {
+        await fetch("http://localhost:10000", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
